@@ -13,6 +13,8 @@
 		6282A40726894A4D002744A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6282A40526894A4D002744A5 /* Main.storyboard */; };
 		6282A40926894A4E002744A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6282A40826894A4E002744A5 /* Assets.xcassets */; };
 		6282A40C26894A4E002744A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6282A40A26894A4E002744A5 /* LaunchScreen.storyboard */; };
+		62C77080268D7F5600DAD759 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C7707F268D7F5600DAD759 /* ImageCollectionViewCell.swift */; };
+		62C77082268D9E4C00DAD759 /* Marcellus-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62C77081268D9E4C00DAD759 /* Marcellus-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6282A40826894A4E002744A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6282A40B26894A4E002744A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6282A40D26894A4E002744A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C7707F268D7F5600DAD759 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		62C77081268D9E4C00DAD759 /* Marcellus-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Marcellus-Regular.ttf"; path = "../../../../Desktop/Marcellus/Marcellus-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				6282A40126894A4D002744A5 /* SceneDelegate.swift */,
 				6282A40326894A4D002744A5 /* ViewController.swift */,
 				6282A40526894A4D002744A5 /* Main.storyboard */,
+				62C7707F268D7F5600DAD759 /* ImageCollectionViewCell.swift */,
 				6282A40826894A4E002744A5 /* Assets.xcassets */,
 				6282A40A26894A4E002744A5 /* LaunchScreen.storyboard */,
 				6282A40D26894A4E002744A5 /* Info.plist */,
+				62C77081268D9E4C00DAD759 /* Marcellus-Regular.ttf */,
 			);
 			path = "estee-lauder-challenge";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C77082268D9E4C00DAD759 /* Marcellus-Regular.ttf in Resources */,
 				6282A40C26894A4E002744A5 /* LaunchScreen.storyboard in Resources */,
 				6282A40926894A4E002744A5 /* Assets.xcassets in Resources */,
 				6282A40726894A4D002744A5 /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			files = (
 				6282A40426894A4D002744A5 /* ViewController.swift in Sources */,
 				6282A40026894A4D002744A5 /* AppDelegate.swift in Sources */,
+				62C77080268D7F5600DAD759 /* ImageCollectionViewCell.swift in Sources */,
 				6282A40226894A4D002744A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
